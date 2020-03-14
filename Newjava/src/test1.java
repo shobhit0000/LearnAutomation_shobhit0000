@@ -27,6 +27,7 @@ public class test1 {
 			element.sendKeys(Keys.SHIFT,"Testing Software");
 			element.sendKeys(Keys.ENTER,"");
 			System.out.println(driver.getTitle());
+			System.out.println("Successfull implementation of GitHub");
 			
 		
 			
