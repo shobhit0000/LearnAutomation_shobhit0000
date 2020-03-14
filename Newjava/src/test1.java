@@ -19,6 +19,7 @@ public class test1 {
 		
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Acer\\workspace\\Newjava\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
+			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get("http:\\www.google.com");
 			
